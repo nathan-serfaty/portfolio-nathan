@@ -580,7 +580,7 @@ function Contact() {
           <ContactRow
             label="LinkedIn"
             value="Nathan Serfaty"
-            href="https://www.linkedin.com/in/nathan-serfaty/"
+            href="https://www.linkedin.com/in/nathan-serfaty-11a620292"
           />
           <ContactRow label="Located" value="Paris · Île de France" />
           <ContactRow label="Status" value="One slot open · Q2 2026" accent />
