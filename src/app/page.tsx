@@ -68,7 +68,7 @@ const projects: Project[] = [
   {
     name: "Israeli SaaS feature",
     url: "#",
-    tagline: "Embedded feature for a YC style early stage startup.",
+    tagline: "An embedded feature built for a YC-style early-stage startup.",
     role: "Client feature",
     stack: "Contract work",
     year: "2025",
@@ -80,22 +80,22 @@ const services = [
   {
     n: "01",
     title: "SaaS platforms",
-    body: "From schema to ship. Auth, billing, dashboards, AI features. The boring parts done right so the product stays sharp.",
+    body: "From schema to ship: auth, billing, dashboards, AI features. The unglamorous foundations done properly so the product stays fast, coherent, and sharp where it matters.",
   },
   {
     n: "02",
     title: "AI products",
-    body: "Voice agents, copilots, internal tools. We pick the model, wire the gateway, and ship something that feels native, not bolted on.",
+    body: "Voice agents, copilots, internal tools. We choose the right models, design the integration layer, and ship experiences that feel native to the product, not like an add-on.",
   },
   {
     n: "03",
     title: "Landing pages that convert",
-    body: "Premium SEO landings written like editorial, engineered for speed, designed by a Penninghen trained eye.",
+    body: "Editorial-grade SEO pages that read like content, load like infrastructure, and convert like product. Engineered for speed and precision, shaped by a Penninghen-trained eye for hierarchy, clarity, and visual restraint.",
   },
   {
     n: "04",
     title: "Design systems",
-    body: "Components, tokens, motion. A visual language your product can keep growing inside without going generic.",
+    body: "Components, tokens, and motion built as a single visual language. Structured so your product can scale and evolve without drifting into inconsistency or becoming generic.",
   },
 ];
 
@@ -103,17 +103,17 @@ const principles = [
   {
     k: "01",
     t: "Ship the boring layer well",
-    d: "Auth, payments, observability, migrations. Invisible when right, ruinous when wrong.",
+    d: "Auth, payments, observability, migrations. The systems that never get attention when they work, and quietly destroy the product when they don’t.",
   },
   {
     k: "02",
     t: "Design is the moat",
-    d: "Anyone can wire an API. A product that feels like it was made on purpose is rare. And it pays.",
+    d: "Anyone can wire an API. Very few can make a product feel inevitable, where every interaction is intentional and nothing feels accidental. That level of coherence is what users trust, remember, and ultimately pay for.",
   },
   {
     k: "03",
     t: "Two people, one taste",
-    d: "Small team, tight loop. The engineer and the designer in the same room means decisions in hours, not weeks.",
+    d: "Engineer and designer in the same room, making the same calls with the same standard. No handoffs, no delays, just decisions that move from idea to product in hours, not weeks.",
   },
 ];
 
@@ -212,15 +212,16 @@ function Hero() {
 
         <div className="col-span-12 mt-10 grid grid-cols-12 gap-6">
           <p className="col-span-12 max-w-xl text-lg leading-relaxed text-[var(--color-ink-soft)] md:col-span-7 md:text-xl">
-            I&apos;m Nathan, a fullstack engineer based in Paris. I design
-            architectures, write the code, and put products in front of real
-            users. Solo I&apos;ve shipped four live SaaS. With my cofounder
-            Jeremy I built{" "}
+            I&apos;m Nathan, a full-stack engineer based in Paris. I design
+            systems, write the code, and ship products into the hands of real
+            users. Independently, I&apos;ve launched four live SaaS products.
+            With my cofounder Jeremy Manset, I built{" "}
             <span className="font-display italic text-[var(--color-ink)]">
               NSJ Agency
             </span>
-            , a small studio that wraps engineering inside Penninghen grade
-            design, so clients buy a product, not a build.
+            , a small studio where engineering is wrapped in Penninghen-grade
+            design so clients don&apos;t just get something built, they get a
+            product worth buying.
           </p>
           <div className="col-span-12 flex flex-col items-start gap-4 md:col-span-5 md:items-end">
             <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--color-ink-mute)]">
@@ -299,13 +300,18 @@ function Manifesto() {
       className="relative mx-auto max-w-[1400px] px-6 py-28 sm:px-10"
     >
       <SectionHead label="01 / Thesis" title="What I sell, really." />
-      <div className="mt-12 grid grid-cols-12 gap-6">
+      <div className="mt-12 grid grid-cols-12 gap-10 md:gap-12">
         <p className="col-span-12 font-display text-[clamp(2rem,4.4vw,4rem)] leading-[1.05] md:col-span-10">
-          The reason most digital products feel{" "}
+          Most digital products feel{" "}
           <span className="italic text-[var(--color-accent)]">forgettable</span>{" "}
-          isn&apos;t code quality. It&apos;s that engineering and design were
-          done by people who never sat in the same room. NSJ Agency exists to
-          collapse that gap. One engineer, one designer, no translation layer.
+          not because the code is bad, but because engineering and design were
+          created in isolation. Different priorities, different language, too
+          many handoffs.
+        </p>
+        <p className="col-span-12 font-display text-[clamp(2rem,4.4vw,4rem)] leading-[1.05] md:col-span-10">
+          NSJ Agency exists to remove that gap: one engineer, one designer,
+          working as a single product team. No translation layer, no disconnect
+          between how it works and how it feels.
         </p>
       </div>
     </section>
@@ -434,22 +440,24 @@ function Duo() {
         <PersonCard
           initial="N"
           name="Nathan Serfaty"
-          role="Fullstack engineer · Cofounder"
-          bio="Ships the product. System architecture, backend, APIs, databases, modern frontend. Four live SaaS solo before NSJ. Knows what shipping actually costs."
+          role="Full-stack engineer · Cofounder"
+          bio="Ships the product end to end: system architecture, backend, APIs, databases, and modern frontend. Independently launched four live SaaS products before NSJ Agency. Brings the technical judgment and product instinct needed to turn ideas into products that survive real-world use."
           tags={["Next.js", "TypeScript", "Postgres", "AI agents", "Vercel"]}
         />
         <PersonCard
           initial="J"
           name="Jeremy Manset"
           role="Designer · Cofounder"
-          bio="Trained at Penninghen, Paris. Brings the visual language that lets us sell premium. Interfaces, identity, motion. Design that gets us in the room with serious clients."
+          bio="Trained at Penninghen in Paris. Brings the visual language that positions products at a premium level: interfaces, identity, motion, and brand systems built to command attention. The kind of design that gets you in the room with serious clients before a single word is spoken."
           tags={["Penninghen", "Brand", "UI/UX", "Motion", "Art direction"]}
         />
       </div>
       <p className="mt-10 max-w-2xl font-display text-2xl italic leading-snug text-[var(--color-ink-soft)] md:text-3xl">
         Most agencies stack five people between the brief and the build. We are
-        two. Same room. Same taste.{" "}
-        <span className="text-[var(--color-accent)]">Same standard.</span>
+        two. One room, one conversation,{" "}
+        <span className="text-[var(--color-accent)]">
+          one shared standard from concept to shipping.
+        </span>
       </p>
     </section>
   );
