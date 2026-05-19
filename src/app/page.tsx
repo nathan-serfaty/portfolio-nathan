@@ -215,13 +215,13 @@ function Hero() {
             I&apos;m Nathan, a full-stack engineer based in Paris. I design
             systems, write the code, and ship products into the hands of real
             users. Independently, I&apos;ve launched four live SaaS products.
-            With my cofounder Jeremy Manset, I built{" "}
+            Separately, with my cofounder Jeremy Manset, I built{" "}
             <span className="font-display italic text-[var(--color-ink)]">
               NSJ Agency
             </span>
-            , a small studio where engineering is wrapped in Penninghen-grade
-            design so clients don&apos;t just get something built, they get a
-            product worth buying.
+            , a design-driven product studio where engineering is wrapped in
+            Penninghen-grade precision so clients don&apos;t just get something
+            built, they get a product worth buying.
           </p>
           <div className="col-span-12 flex flex-col items-start gap-4 md:col-span-5 md:items-end">
             <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--color-ink-mute)]">
